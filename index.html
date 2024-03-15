@@ -59,7 +59,7 @@
                     />
                 </a>
                 <button
-                    class="navbar-toggler "
+                    class="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup"
@@ -374,25 +374,32 @@
                                     >Name</label
                                 >
                                 <input
-                                    type="name"
+                                    type="text"
                                     class="form-control"
                                     id="name"
                                 />
                             </div>
 
-                            <div class="form-floating">
-                                <textarea
+                            <div class="mb-3">
+                                <label
+                                    for="number"
+                                    class="form-label"
+                                    >Number</label
+                                >
+                                <input
+                                    type="number"
                                     class="form-control"
-                                    placeholder="Pilih Menu"
-                                    id="order"
-                                ></textarea>
-                                <label for="order">Order</label>
+                                    id="number"
+                                />
                             </div>
                             <button
                                 type="submit"
                                 class="btn mt-3 mb-5"
+                                id="send"
+                                value="SEND"
+                                onclick="sendMessage()"
                             >
-                                Submit
+                                Send
                             </button>
                         </form>
                     </div>
@@ -418,6 +425,15 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
+        <!-- Jquery -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <script src="scripts.js"></script>
 
         <!-- Data Aos -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
