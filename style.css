@@ -165,16 +165,28 @@ body{
     padding-top: 15px;
 }
 
-.footer h5{
+.footer h1{
     font-weight: var(--font-semibold);
     font-size: var(--text-medium);
     color: var(--primary-light);
 }
 
-.footer p{
+.footer h2{
+    font-size: var(--text-medium);
     font-weight: var(--font-medium);
+    color: var(--secondary-light);
+}
+
+.footer p{
+    font-weight: var(--font-regular);
     font-size: var(--text-sm);
     color: var(--secondary-light);
+}
+
+.link-footer {
+    text-decoration: none;
+    color: var(--primary-light);
+
 }
 /* footer */
 
